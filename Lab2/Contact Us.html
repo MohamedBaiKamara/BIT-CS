@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Bishop Conforti Agricultural Secondary School</title>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/IMG-20220126-WA0060.jpg" alt=""></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="Home.html">HOME</a></li>
+                 <li><a href="About us.html">ABOUT</a></li>                 
+                 <li><a href="Contact Us.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showMenu()"></i> 
+    </nav>
+
+    <h1>Contact Us</h1>
+</section> 
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+           <div>
+            <i class="fas fa-home"></i>  
+           </div> 
+        <div class="contact-col">
+            <form action="" class="inquiry-form">
+                <input type="text" placeholder="Enter your name"><br>
+                <input type="email" placeholder="Enter email address"><br>
+                <input type="text" placeholder="Enter your subject"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea><br>
+                <button class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+</div>
+<!--JavaScript to toggle menu option -->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu() {
+navLinks.style.right = "-200px";
+}
+</script>    
+    <footer>
+      <p>BCASS<br>
+      <a href="mailto:hege@example.com">bishopconforti@gmail.com</a></p>
+    </footer>
+    
+        </body>
+        </html>
