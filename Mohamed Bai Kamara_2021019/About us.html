@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+   
+    
+    <style>
+       img{
+       
+       border-collapse: collapse;
+       border-radius: 250px; 
+       border: 2px solid green;
+       margin:auto ;
+   }
+    </style>
+     
+      
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+         <a href="index.html"><img src="images/IMG-20220126-WA0060.jpg" alt=""></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="Home.html">HOME</a></li>
+              <li><a href="About us.html">ABOUT</a></li>                 
+              <li><a href="Contact Us.html">CONTACT</a></li>
+         </ul>
+         </div>
+         <i class="fas fa-bars" onclick="showMenu()"></i> 
+    </nav>
+
+    <h1>About Us</h1>
+ 
+
+        <div class="about-col"> 
+          <img src="images/about.jpg" alt="">
+        </div>   
+        
+    </div>
+    </div>
+
+</section>
+
+
+<!-- JavaScript to toggle menu option -->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu() {
+navLinks.style.right = "-200px";
+}
+</script>  
+
+<img src="images/20220224_131000.jpg"alt="our pupils"width="500"height="300">
+<img src="images/20220126_122207.jpg"alt="our pupils"width="500"height="300">
+
+  <footer>
+    <p>BCASS<br>
+    <a href="mailto:hege@example.com">bishopconforti@gmail.com</a></p>
+  </footer>
+  
+ 
+  
+</body>
+</html>
