@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CUMt</title>
+</head>
+<body>
+  <nav> 
+    <div class="nav-links" id="navLinks">
+      <i class="fas fa-times" onclick="hideMenu()"></i>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+          <ul>
+            <li><a href="Home.html">Home</a></li> 
+            <li> <a href="About.html">About</a></li> 
+            <li><a href="Facility.html">Facility</a></li> 
+            <li> <a href="Contact.html">Contact</a></li> 
+           </ul>
+      </ul>
+      </div>
+    </nav>
+    
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <header>
+       
+       
+      </header>
+
+
+ <!-- About us Content    -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                    <h1>We are the world's largest university</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rerum vitae impedit cupiditate, voluptate unde veniam minus. Minus, nisi repellendus nihil nemo odit earum dolorem quaerat commodi, incidunt nesciunt porro qui quisquam totam ipsum repellat asperiores aspernatur provident nostrum? Voluptatum sequi exercitationem earum ad fugiat voluptas natus autem porro quibusdam?</p>
+                    <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+         </div>   
+
+            <div class="about-col"> 
+              <img src="images/about.jpg" alt="">
+            </div>   
+            
+        </div>
+        </div>
+
+    </section>
+
+<!-- JavaScript to toggle menu option -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+      navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>    
+
+
+      <footer>
+       
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        
+        
+      </footer>
+</body>
+</html>
